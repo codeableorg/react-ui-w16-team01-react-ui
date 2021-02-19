@@ -1,0 +1,18 @@
+.searchbar {
+  max-width: 944px;
+  padding: 16px;
+  background: var(--background-search);
+  border-radius: 24px;
+}
+
+.searchbar i {
+
+}
+
+.searchbar input {
+  width: 100%;
+  border: none;
+  background: var(--background-search);
+  color: var(--font-dark-gray);
+  font-size: 16px;
+}

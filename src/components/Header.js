@@ -1,10 +1,12 @@
-import "../stylesheets/Header.css";
+
+import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
-    <div>
-    Header
-    </div>
+    <header>
+      <SearchBar />
+      Header
+    </header>
   );
 };
 
