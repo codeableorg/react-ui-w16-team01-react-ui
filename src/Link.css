@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.link {
+  box-sizing: border-box;
+  padding: 16px;
+  border-radius: 24px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Roboto', arial, monospace;
+}
+
+.link--dark {
+  background-color: #111111;
+  color: #FFFFFF;
+}
+
+.link--light {
+  background-color: #FFFFFF;
+  color: #111111;
+}
