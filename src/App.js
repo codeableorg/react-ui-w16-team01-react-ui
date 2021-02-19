@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Link from "./components/Link";
 import Card from "./components/Card"
+import SearchBar from "./components/SearchBar";
 /* import Main from "./components/Main"; */
 
 const App = () => {
@@ -11,6 +12,10 @@ const App = () => {
         <Link>Hola</Link>
         <p>Search</p>
         <Link/>
+        <Link>Inicio</Link>
+        <Link>Hoy</Link>
+        <Link>Siguiendo</Link>
+        <SearchBar/>
       </Header>
       {/* <Main /> */}
       <Card description="Una Foto"
