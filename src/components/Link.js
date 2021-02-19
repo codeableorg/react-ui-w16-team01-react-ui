@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Link.css"
+import styles from "./../stylesheets/Link.css"
 
 export default function Link({href, children, ...props}) {
   return (
