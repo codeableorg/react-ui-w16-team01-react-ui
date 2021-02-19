@@ -7,3 +7,14 @@
   align-items: center;
   background-color: var(--background-header);
 }
+
+.header__nav{
+  display: flex;
+  gap: 8px;
+}
+
+.header__notices {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}

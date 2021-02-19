@@ -1,5 +1,5 @@
 .searchbar {
-  max-width: 944px;
+  width: 944px;
   padding: 16px;
   background: var(--background-search);
   border-radius: 24px;
