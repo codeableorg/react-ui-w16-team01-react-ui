@@ -4,18 +4,24 @@ import Link from "./components/Link";
 import Card from "./components/Card"
 import SearchBar from "./components/SearchBar";
 /* import Main from "./components/Main"; */
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBell, faCommentDots, faUser } from '@fortawesome/free-solid-svg-icons'
 
 const App = () => {
   return (
     <>
       <Header className="header" >
-        <Link>Hola</Link>
-        <p>Search</p>
-        <Link/>
-        <Link>Inicio</Link>
-        <Link>Hoy</Link>
-        <Link>Siguiendo</Link>
+        <div className="header__nav">
+          <Link>Inicio</Link>
+          <Link>Hoy</Link>
+          <Link>Siguiendo</Link>
+        </div>
         <SearchBar/>
+        <div className="header__notices">
+          <FontAwesomeIcon icon={faBell} />
+          <FontAwesomeIcon icon={faCommentDots} />
+          <FontAwesomeIcon icon={faUser} />
+        </div>
       </Header>
       {/* <Main /> */}
       <Card description="Una Foto"
