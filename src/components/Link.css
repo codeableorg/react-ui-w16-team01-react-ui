@@ -7,14 +7,19 @@
   text-align: center;
   display: inline-block;
   font-family: 'Roboto', arial, monospace;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
 }
 
-.link--dark {
-  background-color: #111111;
-  color: #FFFFFF;
+.link:hover {
+  background-color: black;
+  color: white;
 }
 
-.link--light {
-  background-color: #FFFFFF;
-  color: #111111;
+.link:active {
+  background-color: white;
+  color: black;
 }
