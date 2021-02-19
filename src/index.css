@@ -1,3 +1,20 @@
+:root {
+  --background-body: #FFFFFF;
+  --background-header: #FFFFFF;
+  --background-main: #E5E5E5;
+  --background-search:#EFEFEF;
+  --button-background-black: #111111;
+  --color-white: #FFFFFF;
+  --font-dark: #000000;
+  --font-dark-gray: #333333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +22,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-body);
 }
 
 code {
