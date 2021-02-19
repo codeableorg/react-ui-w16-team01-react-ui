@@ -1,12 +1,10 @@
+import "../stylesheets/Header.css";
 import 'remixicon/fonts/remixicon.css';
 
-import SearchBar from "./SearchBar";
-
-const Header = () => {
+const Header = ({className,children}) => {
   return (
-    <header>
-      <SearchBar />
-      Header
+    <header className={className}>
+      {children}
     </header>
   );
 };
