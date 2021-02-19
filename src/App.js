@@ -1,13 +1,17 @@
 import React from "react";
-/* import Header from "./components/Header"; */
+import Header from "./components/Header";
+import Link from "./components/Link";
 /* import Main from "./components/Main"; */
 
 const App = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header className="header" >
+        <Link/>
+        <p>Search</p>
+        <Link/>
+      </Header>
       {/* <Main /> */}
-      Funcionando
     </>
   );
 };

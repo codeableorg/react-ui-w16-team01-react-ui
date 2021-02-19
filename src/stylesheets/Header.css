@@ -1,0 +1,9 @@
+.header {
+  height: 83px;
+  padding: 16px 32px;
+  display: flex;
+  gap: 37px;
+/*   justify-content: space-between; */
+  align-items: center;
+  background-color: var(--background-header);
+}

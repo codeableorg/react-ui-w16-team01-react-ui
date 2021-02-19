@@ -1,10 +1,10 @@
 import "../stylesheets/Header.css";
 
-const Header = () => {
+const Header = ({className,children}) => {
   return (
-    <div>
-    Header
-    </div>
+    <header className={className}>
+      {children}
+    </header>
   );
 };
 
