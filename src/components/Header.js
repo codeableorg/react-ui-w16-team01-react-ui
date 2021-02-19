@@ -1,3 +1,4 @@
+import 'remixicon/fonts/remixicon.css';
 
 import SearchBar from "./SearchBar";
 
