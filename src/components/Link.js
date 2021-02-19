@@ -1,9 +1,10 @@
+import React from "react";
+import styles from "./Link.css"
 
-const Link = () => {
+export default function Link({href, children, ...props}) {
   return (
-    <a>Link</a>
-
-  );
-};
-
-export default Link;
+    <a className={`link`} href={href}>
+      {children}
+    </a>
+  )
+}
