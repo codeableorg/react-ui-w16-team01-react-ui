@@ -1,0 +1,27 @@
+.container__wrapper {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 832px;
+  margin: auto;
+  max-height: 665px;
+}
+
+.container__title {
+  font-size: 28px;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.container__cards {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}

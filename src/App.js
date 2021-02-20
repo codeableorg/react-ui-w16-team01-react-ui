@@ -4,6 +4,9 @@ import Link from "./components/Link";
 import SearchBar from "./components/SearchBar";
 import Main from "./components/Main";
 /* Fuente */
+import Card from "./components/Card";
+import Container from "./components/Container";
+/* import Main from "./components/Main"; */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell, faCommentDots, faUser } from '@fortawesome/free-solid-svg-icons'
 
@@ -25,6 +28,20 @@ const App = () => {
       </Header>
       <Main />
 
+      {/* <Main /> */}
+      <Container title="Hola Como estas">
+        <Card description="Una Foto"
+        title="Intereses, el nuevo widget de pinterest"
+        src="https://i.picsum.photos/id/0/536/354.jpg?hmac=pYva7VotLDyw33JFwZdFMkf5Egtdk2Z6p7Rr8nO6ngs"
+        /><Card description="Una Foto"
+        title="Intereses, el nuevo widget de pinterest"
+        src="https://i.picsum.photos/id/0/536/354.jpg?hmac=pYva7VotLDyw33JFwZdFMkf5Egtdk2Z6p7Rr8nO6ngs"
+        /><Card description="Una Foto"
+        title="Intereses, el nuevo widget de pinterest"
+        src="https://i.picsum.photos/id/0/536/354.jpg?hmac=pYva7VotLDyw33JFwZdFMkf5Egtdk2Z6p7Rr8nO6ngs"
+        size="large"
+        />
+      </Container>
     </>
   );
 };
