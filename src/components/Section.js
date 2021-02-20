@@ -1,15 +1,32 @@
 import Card from "./Card";
+import { STORE } from "../store";
 
-const Section = () => {
-  return (
+
+const Section = ({dateTitle}) => {
+ 
+   return (
      <section>
-      <Card description="Una Foto"
-        title="Intereses, el nuevo widget de pinterest"
-        src="https://i.picsum.photos/id/0/536/354.jpg?hmac=pYva7VotLDyw33JFwZdFMkf5Egtdk2Z6p7Rr8nO6ngs"
-        size="large"
-        />
+      <h3> {dateTitle} </h3>
+      {STORE.map((article) => {
+          let [a,m,d]= article.date.split("-");
+          let dateArticle = new Date(a,m-1,d);
+          var options = { year: 'numeric', month: 'long', day: 'numeric' };
+          if (dateTitle == article.date){
+          return <Card description={article.description}
+          title = {article.title}
+          src = {article.img_url}
+          size ={article.size}
+          key = {article.title}
+          /> 
+          }
+
+        })}
      </section>
-  );
+
+
+
+   ) 
+      
 };
 
 export default Section;

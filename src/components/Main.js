@@ -1,13 +1,11 @@
 import Section from "./Section";
-import { STORE } from "../store";
+
 
 const Main = () => {
   return (
     <main className="main">
-     <Section/>
-     { STORE.forEach((article) => {
-       return (<p key={article.title}>{article}</p>)
-     })}
+     <Section dateTitle = "2021-02-18"/>
+     <Section dateTitle = "2021-02-17"/>
     </main>
   );
 };
