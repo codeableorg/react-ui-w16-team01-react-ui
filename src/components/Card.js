@@ -2,7 +2,6 @@ import styles from "./../stylesheets/Card.css"
 
 const Card = ({className, description, title, size, src,...props}) => {
   const sizeClassName = size ? "card--large" : "";
-  console.log(src)
   return (
     <div className={`card ${className} ${sizeClassName}`}>
       <div className='card__gradient'/>

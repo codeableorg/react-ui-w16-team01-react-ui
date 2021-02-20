@@ -26,22 +26,7 @@ const App = () => {
           <FontAwesomeIcon icon={faUser} />
         </div>
       </Header>
-      <Main />
-
-      {/* <Main /> */}
-      <Container title="Hola Como estas">
-        <Card description="Una Foto"
-        title="Intereses, el nuevo widget de pinterest"
-        src="https://i.picsum.photos/id/0/536/354.jpg?hmac=pYva7VotLDyw33JFwZdFMkf5Egtdk2Z6p7Rr8nO6ngs"
-        /><Card description="Una Foto"
-        title="Intereses, el nuevo widget de pinterest"
-        src="https://i.picsum.photos/id/0/536/354.jpg?hmac=pYva7VotLDyw33JFwZdFMkf5Egtdk2Z6p7Rr8nO6ngs"
-        /><Card description="Una Foto"
-        title="Intereses, el nuevo widget de pinterest"
-        src="https://i.picsum.photos/id/0/536/354.jpg?hmac=pYva7VotLDyw33JFwZdFMkf5Egtdk2Z6p7Rr8nO6ngs"
-        size="large"
-        />
-      </Container>
+      <Main />   
     </>
   );
 };
