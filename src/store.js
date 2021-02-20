@@ -1,4 +1,4 @@
-const store = [
+const STORE = [
   {
     title: 'Para dias más productivos',
     description: 'Agendas y bullet journals',
@@ -49,3 +49,5 @@ const store = [
     size: '',
   },
 ]
+
+export { STORE };
