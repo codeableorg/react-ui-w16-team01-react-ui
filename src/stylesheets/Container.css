@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 832px;
-  margin: auto;
+  margin: 32px auto 0px auto;
   max-height: 665px;
 }
 
@@ -21,7 +21,10 @@
 }
 
 .container__cards {
+  max-height: 665px;
   display: flex;
+  flex-direction: column;
   gap: 32px;
   flex-wrap: wrap;
+  align-content: center;
 }
