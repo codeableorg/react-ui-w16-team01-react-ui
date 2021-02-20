@@ -23,4 +23,5 @@
 .container__cards {
   display: flex;
   gap: 32px;
+  flex-wrap: wrap;
 }
